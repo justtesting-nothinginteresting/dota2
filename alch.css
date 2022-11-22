@@ -1,0 +1,116 @@
+body {
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+}
+.item1, .item2, .item3, .item4, .item5, .bestpic {
+	width: 60px;
+	height: 60px;
+	border: 4px solid black;
+}
+.sim img {
+	width: 175px;
+
+}
+.map {
+	width: 225px;
+	height: 225px;
+}
+.header {
+	display: flex;
+  align-items: center;
+  width: 100%;
+  height: 7%;
+  background-color: #1f2937;
+}
+.hl {
+  text-decoration: none;
+  color: white;
+}
+.hLink {
+  margin-right: 60px;
+}
+.links {
+  font-size: small;
+  margin-left: auto;
+  padding-right: 50px;
+  color: white;
+  font-weight: 500;
+}
+.headerLogo {
+	color: white;
+}
+.section1,
+.section2,
+.section3,
+.section4 {
+  min-height: 22.5%;
+}
+.boxes {
+  display: none;
+  max-height: 500px;
+  max-width: 500px;
+  margin: 10%;
+  flex-grow: 1; 
+}
+.box1, .box2, .box3, .box4, .box5, .player1, .player2, .player3, .best {
+	outline: 2px solid black;
+
+}
+.mainwrap {
+	display: flex;
+	font-size: 30px;
+	justify-content: space-evenly;
+}
+li {
+	list-style: none;
+}
+.map {
+	height: 322px;
+	width: 322px;
+}
+.section3 {
+	font-size: 30px;
+	justify-content: space-evenly;
+}
+.leftwrap {
+	display: flex;
+	font-size: 30px;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: flex-start;
+	
+	
+}
+.vertline {
+	border-left: 3px solid black;
+	height: 1833px;
+	position: absolute;
+	right: 70%;
+	margin-left: -80px;
+	top: 0;
+	margin-top: 1811px;
+}
+.winratewrap { 
+	display: flex;
+	font-size: 30px;
+	flex-direction: column;
+	margin-left: 180px;
+}
+.vl {
+border-left: 3px solid black;
+    height: 1833px;
+    position: absolute;
+    left: 60%;
+    margin-left: -3px;
+    top: 0;
+	margin-top: 1811px;
+}
+.bwrap {
+	display: flex;
+	flex-direction: column;
+	
+}
+.best1, .best2, .best3, .best4, .best5 {
+	outline: 2px solid black;
+}
